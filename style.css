@@ -1,0 +1,54 @@
+html{
+  min-height: 100%;
+  background-image: url(./light.jpg);
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav{
+  border: 1px solid blue;
+  background-color:darkgoldenrod;
+  color: white;
+  padding: 6px;
+  display: flex;
+  flex-wrap:nowrap;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+
+a{
+  text-decoration: none;
+  color:black;
+  font-size: 25px;
+}
+
+a:hover{
+  color: brown;
+}
+
+a:visited{
+  color: purple;
+}
+
+h1{
+  text-align: center;
+  color: blue;
+}
+
+img{
+  width: 200px;
+  height: 200px;;
+  position: absolute;
+  top: 140px;
+  right: 40px;
+}
+
+@media(max-width:600px){
+  .main{
+  width: 100px;
+  float: none;
+ }
+
+}
